@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<h1>This site is under development. Wait is worth!</h1>
 </body>
 </html>
