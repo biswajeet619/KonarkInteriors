@@ -2,165 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="438ae4d1-9bfe-4a39-a18d-2fbdadec60de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/sample.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/sample.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/dropdown/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/dropdown/js/script.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/images/hashes.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/images/kisspng-konark-sun-temple-puri-surya-hindu-temple-5afd89cc2dcb17.6814319915265653241876-122x124.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/images/mbr-1920x1550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/mobirise/css/mbr-additional.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/parallax/jarallax.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/popper/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/smoothscroll/smooth-scroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/tether/tether.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/tether/tether.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/theme/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/theme/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/touchswipe/jquery.touch-swipe.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/web/assets/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/web/assets/mobirise-icons/mobirise-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/web/assets/mobirise-icons/mobirise-icons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/web/assets/mobirise-icons/mobirise-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/web/assets/mobirise-icons/mobirise-icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/web/assets/mobirise-icons/mobirise-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/web/assets/mobirise-icons2/mobirise2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/web/assets/mobirise-icons2/mobirise2.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/web/assets/mobirise-icons2/mobirise2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/web/assets/mobirise-icons2/mobirise2.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/assets/web/assets/mobirise-icons2/mobirise2.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/css/util.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/less/animated.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/less/core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/less/icons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/less/larger.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/less/list.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/less/path.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/less/stacked.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/montserrat/Montserrat-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/montserrat/Montserrat-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/montserrat/Montserrat-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/montserrat/Montserrat-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/montserrat/Montserrat-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/montserrat/Montserrat-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/montserrat/Montserrat-ExtraLightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/montserrat/Montserrat-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/montserrat/Montserrat-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/montserrat/Montserrat-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/montserrat/Montserrat-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/montserrat/Montserrat-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/montserrat/Montserrat-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/montserrat/Montserrat-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/montserrat/Montserrat-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/montserrat/Montserrat-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/montserrat/Montserrat-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/montserrat/OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/poppins/Poppins-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/poppins/Poppins-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/poppins/Poppins-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/poppins/Poppins-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/poppins/Poppins-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/poppins/Poppins-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/poppins/Poppins-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/poppins/Poppins-ExtraLightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/poppins/Poppins-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/poppins/Poppins-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/poppins/Poppins-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/poppins/Poppins-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/poppins/Poppins-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/poppins/Poppins-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/poppins/Poppins-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/poppins/Poppins-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/poppins/Poppins-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/fonts/poppins/Poppins-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/images/bg-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/images/icons/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/images/img-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/animate/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/animsition/css/animsition.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/animsition/css/animsition.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/animsition/js/animsition.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/animsition/js/animsition.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/bootstrap/js/popper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/bootstrap/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/bootstrap/js/tooltip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/countdowntime/countdowntime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/css-hamburgers/hamburgers.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/css-hamburgers/hamburgers.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/daterangepicker/daterangepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/daterangepicker/daterangepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/daterangepicker/moment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/daterangepicker/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/jquery/jquery-3.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/perfect-scrollbar/perfect-scrollbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/perfect-scrollbar/perfect-scrollbar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/select2/select2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/select2/select2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/select2/select2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/contact/vendor/select2/select2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/project.mobirise" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/KonarkInteriors/sample.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -178,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-274">
+            <state relative-caret-position="60">
               <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
@@ -197,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/sample.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -232,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="808" />
@@ -243,7 +85,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,6 +144,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -425,7 +267,7 @@
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -516,21 +358,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/KonarkInteriors/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/target/KonarkInteriors/sample.html" />
+    <entry file="file://$PROJECT_DIR$/target/KonarkInteriors/project.mobirise" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-274">
+        <state relative-caret-position="60">
           <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/KonarkInteriors/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/KonarkInteriors/sample.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/KonarkInteriors/project.mobirise">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/contact/contact.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -542,7 +378,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/sample.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
