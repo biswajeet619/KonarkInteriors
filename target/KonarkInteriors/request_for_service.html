@@ -45,7 +45,7 @@
                     </a>
                 </span>
                 <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4"
-                                                     href="sample.html">KONARK INTERIORS</a></span>
+                                                     href="index.html">KONARK INTERIORS</a></span>
             </div>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -74,8 +74,9 @@
     <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(35, 35, 35);"></div>
 
     <div class="container align-center">
-        <div class="row justify-content-md-center">
+        <div class="row justify-content-lg-center">
             <div class="mbr-white col-md-8">
+                <p class="mbr-text pb-lg-4 mbr-fonts-style display-5">Place an appointment</p>
                 <script>
                     $("#others").click(function(){
                     $("#others_div").toggle();
@@ -89,6 +90,38 @@
                     <option>Full house interiors</option>
                     <option id="others">Others</option>
                 </select>
+
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+                            <label for="inputEmail4">Name</label>
+                            <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress2">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <label for="inputCity">City/Locality</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+
+                        <div class="form-group col-sm-6">
+                            <label >Date</label>
+                            <input type="date" class="form-control" id="inputZip" minlength="6">
+                            <label >Time</label>
+                            <input type="time" class="form-control" id="inputZip" minlength="6">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-secondary">Submit</button>
+                </form>
 
             </div>
         </div>
