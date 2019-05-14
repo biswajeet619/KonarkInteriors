@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="assets/dropdown/css/style.css">
     <link rel="stylesheet" href="assets/theme/css/style.css">
     <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+    <script type="text/javascript" src="assets/bootstrap/js/requestForService.js"></script>
 
 
 
@@ -77,19 +78,19 @@
         <div class="row justify-content-lg-center">
             <div class="mbr-white col-md-8">
                 <br><br><p class="mbr-text pb-lg-4 mbr-fonts-style display-5">Place a service request</p>
-                <select id="inputState" class="form-control">
+                <select id="inputServiceType" class="form-control">
                     <option>Furniture Request</option>
                     <option>Falls ceiling</option>
                     <option>Full house interiors</option>
                 </select>
 
-                <form>
+                <form id="requestForm" >
                     <div class="form-row">
                         <div class="form-group col-sm-6"><br>
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
                         </div>
                         <div class="form-group col-sm-6"><br>
-                            <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
+                            <input type="text" class="form-control" id="inputName" placeholder="Name">
                         </div>
                     </div>
                     <div class="form-group">
@@ -125,7 +126,7 @@
                         </div>
                     </div>
 
-                    <button type="submit" class="btn btn-secondary">Submit</button>
+                    <button type="submit" id="submit" class="btn btn-secondary">Submit</button>
                 </form><br>
                 <div class="card">
                     <div class="card-header">
