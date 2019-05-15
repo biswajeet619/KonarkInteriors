@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html  >
+<html >
 <head>
     <!-- Site made with Mobirise Website Builder v4.10.0, https://mobirise.com -->
     <meta charset="UTF-8">
@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="assets/images/kisspng-konark-sun-temple-puri-surya-hindu-temple-5afd89cc2dcb17.6814319915265653241876-122x124.png" type="image/x-icon">
     <meta name="description" content="">
 
-    <title>Home</title>
+    <title>Service request</title>
     <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
     <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
     <link rel="stylesheet" href="assets/tether/tether.min.css">
@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="assets/dropdown/css/style.css">
     <link rel="stylesheet" href="assets/theme/css/style.css">
     <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+    <script type="text/javascript" src="assets/bootstrap/js/requestForService.js"></script>
 
 
 
@@ -76,35 +77,29 @@
     <div class="container align-center">
         <div class="row justify-content-lg-center">
             <div class="mbr-white col-md-8">
-                <br><p class="mbr-text pb-lg-4 mbr-fonts-style display-5">Place an appointment</p>
-                <script>
-                    $("#others").click(function(){
-                    $("#others_div").toggle();
-                });
-                </script>
-                <select id="inputState" class="form-control">
-
-                    <option selected>Please select a service you want...</option>
+                <br><br><p class="mbr-text pb-lg-4 mbr-fonts-style display-5">Place a service request</p>
+                <select id="inputServiceType" class="form-control">
                     <option>Furniture Request</option>
                     <option>Falls ceiling</option>
                     <option>Full house interiors</option>
-                    <option id="others">Others</option>
                 </select>
 
-                <form>
+                <form id="requestForm" >
                     <div class="form-row">
-                        <div class="form-group col-sm-12">
-                            <label for="inputEmail4">Name</label>
-                            <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
+                        <div class="form-group col-sm-6"><br>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                        </div>
+                        <div class="form-group col-sm-6"><br>
+                            <input type="text" class="form-control" id="inputName" placeholder="Name">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="inputAddress">Address</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        <label for="inputAddress">Address 1</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Apartment, studio, or floor">
                     </div>
                     <div class="form-group">
                         <label for="inputAddress2">Address 2</label>
-                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="1234 Main St">
                     </div>
                     <div class="form-row">
                         <div class="form-group col-sm-6">
@@ -114,14 +109,34 @@
 
                         <div class="form-group col-sm-6">
                             <label >Date</label>
-                            <input type="date" class="form-control" id="inputZip" minlength="6">
+                            <input type="date" class="form-control" id="Date" minlength="6">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label >Pin code</label>
+                            <input type="number" class="form-control" id="Zipcode" minlength="6">
+                        </div>
+                        <div class="form-group col-sm-6">
                             <label >Time</label>
-                            <input type="time" class="form-control" id="inputZip" minlength="6">
+                            <select id="inputState" class="form-control">
+                                <option>08:30 A.M - 10:30 A.M</option>
+                                <option>10:30 A.M - 12:30 P.M</option>
+                                <option>01:30 P.M - 03:30 P.M</option>
+                                <option>03:30 P.M - 05:30 P.M</option>
+                            </select>
                         </div>
                     </div>
 
-                    <button type="submit" class="btn btn-secondary">Submit</button>
-                </form>
+                    <button type="submit" id="submit" class="btn btn-secondary">Submit</button>
+                </form><br>
+                <div class="card">
+                    <div class="card-header">
+                        Coolest interior practices
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Konark Interiors</h5>
+                        <p class="card-text">We make your Lifestyle easy and comfortable.</p>
+                    </div>
+                </div>
 
             </div>
         </div>
