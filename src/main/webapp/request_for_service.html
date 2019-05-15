@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="assets/dropdown/css/style.css">
     <link rel="stylesheet" href="assets/theme/css/style.css">
     <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"> type="text/javascript" </script>
+<script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"> type="text/javascript" </script>
     <script type="text/javascript" src="assets/bootstrap/js/requestForService.js"></script>
 
 
@@ -79,9 +81,10 @@
             <div class="mbr-white col-md-8">
                 <br><br><p class="mbr-text pb-lg-4 mbr-fonts-style display-5">Place a service request</p>
                 <select id="inputServiceType" class="form-control">
-                    <option>Furniture Request</option>
-                    <option>Falls ceiling</option>
-                    <option>Full house interiors</option>
+                	<option value="0">Please select a request type</option>
+                    <option value="furniture">Furniture Request</option>
+                    <option value="fallsCeiling">Falls ceiling</option>
+                    <option value="fullHouseInteriors">Full house interiors</option>
                 </select>
 
                 <form id="requestForm" >
@@ -117,18 +120,26 @@
                         </div>
                         <div class="form-group col-sm-6">
                             <label >Time</label>
-                            <select id="inputState" class="form-control">
-                                <option>08:30 A.M - 10:30 A.M</option>
-                                <option>10:30 A.M - 12:30 P.M</option>
-                                <option>01:30 P.M - 03:30 P.M</option>
-                                <option>03:30 P.M - 05:30 P.M</option>
+                            <select id="inputSlot" class="form-control">
+                            	<option value="0"> Select Slot </option>
+                                <option value="1">08:30 A.M - 10:30 A.M</option>
+                                <option value="2">10:30 A.M - 12:30 P.M</option>
+                                <option value="3">01:30 P.M - 03:30 P.M</option>
+                                <option value="4">03:30 P.M - 05:30 P.M</option>
                             </select>
                         </div>
                     </div>
+<<<<<<< HEAD
         <div class="mbr-section-btn">
             <a class="btn btn-md btn-secondary display-4"  href="#">Submit</a>
         </div>
                 </form><br>
+=======
+
+                </form>
+                    <button type="submit" id="submit" class="btn btn-md btn-secondary display-4">Submit</button>
+                <br>
+>>>>>>> 7c21a3d75c63ee9be7a26c54409b9d7755babb2e
                 <div class="card">
                     <div class="card-header">
                         Coolest interior practices
