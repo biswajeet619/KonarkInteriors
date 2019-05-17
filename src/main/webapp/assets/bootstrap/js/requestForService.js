@@ -14,8 +14,11 @@ $(document).ready(function() {
 		if ($('#inputServiceType').val() == '0') {
 			errorHtml = errorHtml + "Please select a request type\n<br>";
 		}
-		if ($('#inputEmail').val() == '') {
-			errorHtml = errorHtml + "Please enter valid email\n<br>";
+		var email = $('#inputEmail').val();
+		var atposition=email.indexOf("@");  
+		var dotposition=email.lastIndexOf(".");  
+		if (atposition<1 || dotposition<atposition+2 || dotposition+2>=email.length){  
+		  errorhtml = errorhtml + "Please enter valid email\n<br>";
 		}
 		if ($('#inputName').val() == '') {
 			errorHtml = errorHtml + "Please enter valid name\n<br>";
