@@ -1,7 +1,42 @@
 $(document).ready(function() {
+	$(function() {
+		$("#dialog").dialog({
+			modal : true,
+			autoOpen : false,
+			title : "Data Validation",
+			width : 300
+		});
+	});
 	var base_url = "https://konarkinteriorsapi.cfapps.io";
 	$('#submit').click(function() {
 		var postData = {};
+		var errorHtml = "";
+		if ($('#inputServiceType').val() == '0') {
+			errorHtml = errorHtml + "Please select a request type\n<br>";
+		}
+		if ($('#inputEmail').val() == '') {
+			errorHtml = errorHtml + "Please enter valid email\n<br>";
+		}
+		if ($('#inputName').val() == '') {
+			errorHtml = errorHtml + "Please enter valid name\n<br>";
+		}
+		if ($('#inputAddress').val() == '') {
+			errorHtml = errorHtml + "Please enter address line1\n<br>";
+		}
+		if ($('#inputAddress2').val() == '') {
+			errorHtml = errorHtml + "Please enter address line2\n<br>";
+		}
+		if ($('#inputCity').val() == '') {
+			errorHtml = errorHtml + "Please enter city name\n<br>";
+		}
+		if ($('#Zipcode').val().length < 6) {
+			errorHtml = errorHtml + "Please enter valid pincode\n<br>";
+		}
+		if (errorHtml != '') {
+			$("#dialog").html(errorHtml);
+			$("#dialog").dialog("open");
+			return;
+		}
 		postData['customerRequestType'] = $('#inputServiceType').val();
 		postData['customerEmail'] = $('#inputEmail').val();
 		postData['customerName'] = $('#inputName').val();
