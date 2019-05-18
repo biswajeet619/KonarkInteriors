@@ -80,25 +80,30 @@
         <div class="row justify-content-lg-center">
             <div class="mbr-white col-md-8">
                 <br><br><p class="mbr-text pb-lg-4 mbr-fonts-style display-5">Place a service request</p>
-                <select id="inputServiceType" class="form-control">
+                <select id="inputServiceType" class="form-control" required>
                 	<option value="0">Please select a request type</option>
                     <option value="furniture">Furniture Request</option>
                     <option value="fallsCeiling">Falls ceiling</option>
                     <option value="fullHouseInteriors">Full house interiors</option>
                 </select>
 
-                <form id="requestForm" >
+                <form id="requestForm" class="needs-validation">
                     <div class="form-row">
                         <div class="form-group col-sm-6"><br>
-                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                            <div class="input-group">
+                            <input type="email" class="form-control" id="validationCustomUsername" placeholder="Email" aria-describedby="inputGroupPrepend" required>
+                            <div class="invalid-feedback">
+                                Please choose a username.
+                            </div>
+                        </div>
                         </div>
                         <div class="form-group col-sm-6"><br>
-                            <input type="text" class="form-control" id="inputName" placeholder="Name">
+                            <input type="text" class="form-control" id="inputName" placeholder="Name" required>
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="inputAddress">Address 1</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="Apartment, studio, or floor">
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Apartment, studio, or floor" required>
                     </div>
                     <div class="form-group">
                         <label for="inputAddress2">Address 2</label>
@@ -107,21 +112,21 @@
                     <div class="form-row">
                         <div class="form-group col-sm-6">
                             <label for="inputCity">City/Locality</label>
-                            <input type="text" class="form-control" id="inputCity">
+                            <input type="text" class="form-control" id="inputCity" required>
                         </div>
 
                         <div class="form-group col-sm-6">
                             <label >Date</label>
-                            <input type="date" class="form-control" id="Date" minlength="6">
+                            <input type="date" class="form-control" id="Date" minlength="6" required>
                         </div>
                         <div class="form-group col-sm-6">
                             <label >Pin code</label>
-                            <input type="number" class="form-control" id="Zipcode" minlength="6">
+                            <input type="number" class="form-control" id="Zipcode" minlength="6" required>
                         </div>
                         <div class="form-group col-sm-6">
                             <label >Time</label>
-                            <select id="inputSlot" class="form-control">
-                            	<option value="0"> Select Slot </option>
+                            <select id="inputSlot" class="form-control" required>
+                            	<option value=""> Select Slot </option>
                                 <option value="1">08:30 A.M - 10:30 A.M</option>
                                 <option value="2">10:30 A.M - 12:30 P.M</option>
                                 <option value="3">01:30 P.M - 03:30 P.M</option>
@@ -130,10 +135,31 @@
                         </div>
                     </div>
 
+                        <input type="submit" id="submit" class="btn btn-md btn-secondary display-4" style="border-radius: 30px;">
+
+                    <script>
+                        // Example starter JavaScript for disabling form submissions if there are invalid fields
+                        (function() {
+                            'use strict';
+                            window.addEventListener('load', function() {
+                                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                                var forms = document.getElementsByClassName('needs-validation');
+                                // Loop over them and prevent submission
+                                var validation = Array.prototype.filter.call(forms, function(form) {
+                                    form.addEventListener('submit', function(event) {
+                                        if (form.checkValidity() === false) {
+                                            event.preventDefault();
+                                            event.stopPropagation();
+                                        }
+                                        form.classList.add('was-validated');
+                                    }, false);
+                                });
+                            }, false);
+                        })();
+                    </script>
                 </form>
-                <div class="mbr-section-btn">
-                    <button type="submit" id="submit" class="btn btn-md btn-secondary display-4">Submit</button>
-                </div>
+
+
                 <br>
                 <div class="card">
                     <div class="card-header">
