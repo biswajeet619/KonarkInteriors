@@ -4,11 +4,44 @@ $(document).ready(function() {
 			modal : true,
 			autoOpen : false,
 			title : "Data Validation",
-			width : 300
+			width : 'auto',
+			height: 'auto'
+		});
+		$("#success").dialog({
+			modal : true,
+			autoOpen : false,
+			title : "Success",
+			width : 'auto',
+			height: 'auto',
+			buttons: {
+		        'Ok': function() {
+		        	location.href=window.location.origin;
+		        }
+		    }
+		});
+		$("#error").dialog({
+			modal : true,
+			autoOpen : false,
+			title : "Error",
+			width : 'auto',
+			height: 'auto',
+			buttons: {
+		        'close': function() {
+		        	$("#error").dialog("close");
+		        }
+		    }
+		});
+		$("#loader").dialog({
+			dialogClass: "no-close",
+			modal : true,
+			autoOpen : false,
+			width : 'auto',
+			height: 'auto'
 		});
 	});
 	var base_url = "https://konarkinteriorsapi.cfapps.io";
 	$('#submit').click(function() {
+		$(".ui-dialog-titlebar-close").attr("class","ui-dialog-titlebar-close ui-button-icon-primary ui-icon ui-icon-closethick");
 		var postData = {};
 		var errorHtml = "";
 		if ($('#inputServiceType').val() == '0') {
@@ -18,7 +51,7 @@ $(document).ready(function() {
 		var atposition=email.indexOf("@");  
 		var dotposition=email.lastIndexOf(".");  
 		if (atposition<1 || dotposition<atposition+2 || dotposition+2>=email.length){  
-		  errorhtml = errorhtml + "Please enter valid email\n<br>";
+		  errorHtml = errorHtml + "Please enter valid email\n<br>";
 		}
 		if ($('#inputName').val() == '') {
 			errorHtml = errorHtml + "Please enter valid name\n<br>";
@@ -56,14 +89,24 @@ $(document).ready(function() {
 			data : JSON.stringify(postData),
 			dataType : "json",
 			contentType : "application/json",
+			beforeSend: function(){
+				$("#loader").dialog("open");
+				$(".no-close .ui-dialog-titlebar").attr("style","display:none;");
+			},
+			complete: function(){
+				$("#loader").dialog("close");
+			},
 			error : function(xhr, status, thrownError) {
-				alert("Error while processing request");
+				$("#error").html("Error while processing request");
+				$("#error").dialog("open");
 			},
 			success : function(response) {
 				if (response > 0) {
-					alert("Request Successfull Reference id #" + response);
+					$("#success").html("Request Successfull Reference id #" + response);
+					$("#success").dialog("open");
 				} else {
-					alert("Error while processing request");
+					$("#error").html("Error while processing request");
+					$("#error").dialog("open");
 				}
 			}
 		});
