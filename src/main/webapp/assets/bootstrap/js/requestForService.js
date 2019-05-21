@@ -68,6 +68,14 @@ $(document).ready(function() {
 		if ($('#Zipcode').val().length < 6) {
 			errorHtml = errorHtml + "Please enter valid pincode\n<br>";
 		}
+		var userEntered = new Date($('#Date').val());
+		var now = new Date();
+		if(userEntered<now){
+			errorHtml = errorHtml + "Please select a future date\n<br>";
+		}
+		if($('#inputSlot').val() < 1){
+			errorHtml = errorHtml + "Please select the slot\n<br>"
+		}
 		if (errorHtml != '') {
 			$("#dialog").html(errorHtml);
 			$("#dialog").dialog("open");
