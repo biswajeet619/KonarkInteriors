@@ -88,8 +88,8 @@ $(document).ready(function() {
 		postData['customerAddressLine2'] = $('#inputAddress2').val();
 		postData['customerCity'] = $('#inputCity').val();
 		postData['customerPincode'] = $('#Zipcode').val();
-		postData['customerReqAptDate'] = $('#Date').val();
-		postData['customerReqSlot'] = $('#inputSlot').val();
+		postData['date'] = $('#Date').val();
+		postData['slot'] = $('#inputSlot').val();
 		console.log(postData);
 		$.ajax({
 			url : base_url + '/saveservicerequest',
