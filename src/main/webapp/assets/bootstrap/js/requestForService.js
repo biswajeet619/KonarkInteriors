@@ -68,6 +68,14 @@ $(document).ready(function() {
 		if ($('#Zipcode').val().length < 6) {
 			errorHtml = errorHtml + "Please enter valid pincode\n<br>";
 		}
+		var userEntered = new Date($('#Date').val());
+		var now = new Date();
+		if(userEntered<now){
+			errorHtml = errorHtml + "Please select a future date\n<br>";
+		}
+		if($('#inputSlot').val() < 1){
+			errorHtml = errorHtml + "Please select the slot\n<br>"
+		}
 		if (errorHtml != '') {
 			$("#dialog").html(errorHtml);
 			$("#dialog").dialog("open");
@@ -80,8 +88,8 @@ $(document).ready(function() {
 		postData['customerAddressLine2'] = $('#inputAddress2').val();
 		postData['customerCity'] = $('#inputCity').val();
 		postData['customerPincode'] = $('#Zipcode').val();
-		postData['customerReqAptDate'] = $('#Date').val();
-		postData['customerReqSlot'] = $('#inputSlot').val();
+		postData['date'] = $('#Date').val();
+		postData['slot'] = $('#inputSlot').val();
 		console.log(postData);
 		$.ajax({
 			url : base_url + '/saveservicerequest',
