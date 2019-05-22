@@ -73,7 +73,7 @@ $(document).ready(function() {
 		if(userEntered<now){
 			errorHtml = errorHtml + "Please select a future date\n<br>";
 		}
-		if($('#inputSlot').val() < 1){
+		if($('#inputSlot').val() == '0'){
 			errorHtml = errorHtml + "Please select the slot\n<br>"
 		}
 		if (errorHtml != '') {
