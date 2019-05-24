@@ -1,5 +1,10 @@
 $(document).ready(function() {
 	$(function() {
+		$("#Date").datepicker({
+				  dateFormat: "yy-mm-dd",
+				  minDate:1,
+				  maxDate:14
+		});
 		$("#dialog").dialog({
 			modal : true,
 			autoOpen : false,
@@ -39,7 +44,41 @@ $(document).ready(function() {
 			height: 'auto'
 		});
 	});
+	disableAllSlots();
 	var base_url = "https://konarkinteriorsapi.cfapps.io";
+	$('#Date').change(function(){
+		disableAllSlots();
+		var d = $(this).val();
+		$.ajax({
+			url : base_url + '/getslots/'+d,
+			type : "GET",
+			beforeSend: function(){
+				$("#loader").dialog("open");
+				$(".no-close .ui-dialog-titlebar").attr("style","display:none;");
+			},
+			complete: function(){
+				$("#loader").dialog("close");
+			},
+			error : function(xhr, status, thrownError) {
+				$("#error").html("Failed to load slots");
+				$("#error").dialog("open");
+			},
+			success : function(response) {
+				if (response.slot1) {
+					enableSlot("slot1");			
+				}
+				if(response.slot2){
+					enableSlot("slot2");
+				}
+				if(response.slot3){
+					enableSlot("slot3");
+				}
+				if(response.slot4){
+					enableSlot("slot4")
+				}
+			}
+		});
+	});
 	$('#submit').click(function() {
 		$(".ui-dialog-titlebar-close").attr("class","ui-dialog-titlebar-close ui-button-icon-primary ui-icon ui-icon-closethick");
 		var postData = {};
@@ -120,3 +159,11 @@ $(document).ready(function() {
 		});
 	});
 });
+function disableAllSlots(){
+	for (var i = 1; i <= 4; i++) {
+		$('option[value="slot'+i+'"]').attr("style","display:none;");
+	}
+}
+function enableSlot(option){
+	$('option[value='+option+']').attr("style","");
+}
